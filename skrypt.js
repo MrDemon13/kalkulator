@@ -38,7 +38,7 @@ function bmi(){
     }
 
     if(BMI>=25 && BMI<30){
-        document.getElementById("obraz").src="obrazki/8.png";
+        document.getElementById("obraz").src="obrazki/IMG_20221108_094046.jpg";
         document.getElementById("diagnoza").innerHTML="Wynik: <span>nadwaga</span>";
     }
 
