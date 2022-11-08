@@ -11,7 +11,7 @@
     <div>
         <h1>Kalkulator BMI</h1>
         <br/>
-        <form action="" method="post">
+        <form action="" method="post" id="form">
             <table>
                 <tr>
                     <td>Podaj wzrost &nbsp;</td>
@@ -22,12 +22,13 @@
                     <td><input type="text" name="waga" placeholder="W kilogramach" id="m"></td>
                 </tr>
             </table>
+            <span><h2>Wybierz płeć:</h2></span>
+            Kobieta <input type="radio" name="plec" value="f"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mężczyzna <input type="radio" name="plec" value="m">
             <h1 id="blad"></h1>
-            <br />
             <input type="button" value="Oblicz" onclick="bmi()">
         </form>
         <br/>
-        <img src="obrazki/0.png" alt="" id="obraz">
+        <a href="http://patryk-matusiak.blogspot.com/2012/02/oda-do-otyosci-parodia-wiersza.html"><img src="obrazki/0.png" alt="" id="obraz"></a>
         <h2 id="wynik"></h2>
         <h2 id="diagnoza"></h2>
     </div>
